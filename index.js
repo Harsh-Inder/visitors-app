@@ -29,7 +29,7 @@ app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname,'public')))
 
 
-app.get('/home',async (req,res)=>{
+app.get('/',async (req,res)=>{
     const data=await Data.find({});
     res.render('home',{data});
 })
