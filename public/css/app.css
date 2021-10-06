@@ -1,0 +1,103 @@
+
+/* .outer{
+    background-color:rgb(196, 203, 209);
+} */
+
+section{
+    background-color:rgb(132, 195, 236);
+    border:2px solid black;
+    margin: auto;
+    width:40vw;
+    border-radius: 32px;
+    padding: 5px;
+    text-align: center;
+    color: rgba(194, 37, 63, 0.842);
+    font-size:1.3rem;
+    font-family:  'Trebuchet MS', sans-serif;    
+
+}
+
+.text{
+    color: rgba(194, 37, 63, 0.842);
+    margin: auto;
+    margin-top: 4vh;
+    font-size: 2.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    text-align: center;
+    padding: 10px;
+}
+table{
+    margin:5px auto;
+    background-color:rgb(17, 16, 16);
+    text-align: center;
+    border-collapse: collapse;
+    width:75%;
+    border-radius: 31px;
+}
+td{
+    border: 2px solid rgb(199, 85, 85);
+    padding:5px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#lastrow{
+    border-bottom: 5px solid rgb(214, 21, 21);
+}
+#firstrow{
+    border-top: 5px solid rgb(214, 21, 21);
+}
+
+.enter{
+    text-align: center;
+}
+
+#enter{
+    position: relative;
+    margin-top: 5px;
+    width: 20vw;
+    height:12vh;
+    color: rgb(87, 63, 197);
+    background-color: rgb(82, 228, 82);
+    font-size: 1.5rem;
+    border-radius: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+#enter:hover{
+    background-color: greenyellow;
+}
+#delete{
+    background-color: rgb(173, 28, 28);
+    width:auto;
+    height:auto;
+    font-size: 1.5rem;
+    color:rgb(41, 216, 18);
+    border-radius:21px;
+}
+#delete:hover{
+    background-color: red;
+    color:rgb(45, 133, 33);
+
+}
+#exit{
+    background-color: rgb(187, 142, 58);
+    width:auto;
+    font-size: 1.2rem;
+    color:rgb(21, 22, 21);
+    border-radius: 20px;
+    margin-bottom: 10px
+}
+#exit:hover{
+    background-color: rgb(223, 160, 45);
+}
+#submit{
+    background-color: lightgreen;
+}
+#submit:hover{
+    background-color:rgb(20, 190, 71);
+
+}
