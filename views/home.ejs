@@ -5,7 +5,7 @@
 
 
   <div class="enter">
-    <a href="/home/enter"><button id="enter">Enter The Building</button></a>
+    <a href="enter"><button id="enter">Enter The Building</button></a>
 </div>
 <br>
 
@@ -34,13 +34,13 @@
                         <td><strong>Status:</strong></td><td><%=d.status%></td>
                 <%if(d.status==="Present"){%>
                   <tr id="lastrow">  
-                <td><a href="/home/<%=d.id%>"><button id="exit">Exit the Building</button></a></td>
+                <td><a href="<%=d.id%>"><button id="exit">Exit the Building</button></a></td>
                 <%}else{%>
                 <tr>
                     <td><strong>Check Out Time:</strong></td><td><%if(d.couth<=9){%><%=0%><%}%><%=d.couth%>:<%if(d.coutm<=9){%><%=0%><%}%><%=d.coutm%></td>
                 </tr><tr id="lastrow"><td></td>
                     <%}%>
-                <form action="home/<%=d.id%>?_method=DELETE" method="POST">
+                <form action="<%=d.id%>?_method=DELETE" method="POST">
                  <td><button id="delete" type="submit">Delete this Entry</button></td>
                  </tr>
               
